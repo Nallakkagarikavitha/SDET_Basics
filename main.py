@@ -1,23 +1,16 @@
-class CircleComp:
-    def __init__(self, radius):
-        self.radius = radius
+# This is a sample Python script.
 
-    def calculate_circumference(self):
-        circumference = 2 * 3.14159 * self.radius
-        return circumference
-
-    def calculate_area(self):
-        area = 3.14159 * self.radius ** 2
-        return area
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-# Example usage:
-if __name__ == "__main__":
-    radius = float(input("Enter the radius of the circle: "))
-    circle = CircleComp(radius)
+def print_hi(name):
+    # Use a breakpoint in the code line below to debug your script.
+    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
-    circumference = circle.calculate_circumference()
-    area = circle.calculate_area()
 
-    print(f"The circumference of the circle is: {circumference:.2f}")
-    print(f"The area of the circle is: {area:.2f}")
+# Press the green button in the gutter to run the script.
+if __name__ == '__main__':
+    print_hi('PyCharm')
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
